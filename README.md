@@ -127,7 +127,7 @@ node_3b.flow(
     edge_attrs={"label": "Edge 3b-2c"},
 ).flow( # You can use method chaining.
     src_port="s",
-    dst_node_attrs={"name": pydot.quote_if_necessary("Pink Elephants")},
+    dst_node_attrs={"name": "Pink Elephants"},
     edge_attrs={"label": "Edge 2c-3a"},
 )
 
